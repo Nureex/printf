@@ -1,11 +1,11 @@
-# printf :tada:
+# Printf :tada:
 <img src="https://github.com/Nureex/Files/blob/master/Photos/download.png?raw=true" height="70" width="250">
 
 
 The `printf` function sends formatted output to `stdout`. A custom `_printf()` for learning purposes was developed by cohort #18 students Nura Aliyu and Donald Mogaka. The `_printf()` function's format string is a character string, beginning and ending in its initial shift state, if any of these arguments are placed using the percentage `%` operator.
 
 
-# Resources
+## Resources
 
 1. **Secrets of printf**
    - Link: [Secrets of printf](https://www.academia.edu/10297206/Secrets_of_printf_)
