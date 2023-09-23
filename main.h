@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
 #include <stdio.h>
 #include <unistd.h>
 #include <stdarg.h>
@@ -91,10 +90,10 @@ int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
 
 /* Funciotnss to handle other specifiers */
-int get_flags(const char *format, int *i);
-int get_width(const char *format, int *i, va_list list);
-int get_precision(const char *format, int *i, va_list list);
-int get_size(const char *format, int *i);
+int extract_format_flags(const char *format, int *j);
+int extract_format_width(const char *format, int *j, va_list list);
+int extract_format_precision(const char *format, int *j, va_list list);
+int extract_format_size(const char *format, int *j);
 
 /*Function to prints string in reverse*/
 int print_reverse(va_list types, char buffer[],
@@ -118,4 +117,7 @@ int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
 
+
 #endif /* MAIN_H */
+
+
