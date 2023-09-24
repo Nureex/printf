@@ -2,6 +2,7 @@
 
 /*<<<<<<<<<<<<<<<<<<< WRITE HANDLES >>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /**
+ * Create by Nura and Donald
  * handle_write_char - Prints a strings
  * @c: char types.
  * @width: get width.
